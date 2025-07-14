@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Especial 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="hearts">
+                <div class="heart heart1">💖</div>
+                <div class="heart heart2">💕</div>
+                <div class="heart heart3">💗</div>
+            </div>
+            
+            <div class="card-content">
+                <h1 class="title">Mi Amor 💕</h1>
+                
+                <div class="message">
+                    <p>¿Te gustaría pasar un fin de semana especial conmigo?</p>
+                    <p>He preparado algo muy lindo para nosotros en casa...</p>
+                </div>
+                
+                <div class="details">
+                    <div class="detail-item">
+                        <span class="emoji">📅</span>
+                        <span>Este fin de semana</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="emoji">🏠</span>
+                        <span>En mi casa</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="emoji">🍽️</span>
+                        <span>Cena romántica incluida</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="emoji">🎬</span>
+                        <span>Películas, TikToks y Pururus</span>
+                    </div>
+                </div>
+                
+                <div class="buttons">
+                    <button class="btn btn-yes" onclick="responder(true)">
+                        ¡Sí, mi amor! 💕
+                    </button>
+                    <button class="btn btn-maybe" onclick="responder(false)">
+                        Déjame pensarlo 🤔
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="response-message" id="responseMessage"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
